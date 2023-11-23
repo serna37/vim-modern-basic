@@ -4,6 +4,7 @@ setting basic config in vim.
 sample
 
 ```vim
+let mapleader = "\<SPACE>"
 " ##################          FILE          ###################
 " file
 set fileformat=unix " LF

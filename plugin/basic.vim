@@ -1,3 +1,4 @@
+let mapleader = "\<SPACE>"
 " ##################          FILE          ###################
 " file
 set fileformat=unix " LF
