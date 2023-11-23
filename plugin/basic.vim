@@ -69,10 +69,6 @@ set wildchar=<Tab> " command mode comletion key
 set wildmode=full " command mode completion match mode
 set complete=.,w,b,u,U,k,kspell,s,i,d,t " insert mode completion resource
 set completeopt=menuone,noinsert,preview,popup " insert mode completion window
-" completion with Tab
-inoremap <expr><CR> pumvisible() ? '<C-y>' : '<CR>'
-inoremap <expr><Tab> pumvisible() ? '<C-n>' : '<C-t>'
-inoremap <expr><S-Tab> pumvisible() ? '<C-p>' : '<S-Tab>'
 
 " ##################         SEARCH         ###################
 " search
