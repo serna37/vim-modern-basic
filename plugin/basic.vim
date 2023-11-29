@@ -55,7 +55,7 @@ set matchtime=3 " jump term sec
 " save
 nnoremap <C-s> :w<CR>
 " quit
-nnoremap <C-q> :q
+nnoremap <C-q> :qa
 
 " ##################       COMPLETION       ###################
 " indent
