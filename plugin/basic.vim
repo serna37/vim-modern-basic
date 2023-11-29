@@ -54,6 +54,8 @@ set showmatch " jump pair of parentheses when write
 set matchtime=3 " jump term sec
 " save
 nnoremap <C-s> :w<CR>
+" quit
+nnoremap <C-q> :q
 
 " ##################       COMPLETION       ###################
 " indent
