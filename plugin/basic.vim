@@ -56,6 +56,11 @@ set matchtime=3 " jump term sec
 nnoremap <C-s> :w<CR>
 " quit
 nnoremap <C-q> :qa
+" move
+inoremap <C-l> <right>
+inoremap <C-h> <left>
+inoremap <C-j> <down>
+inoremap <C-k> <up>
 
 " ##################       COMPLETION       ###################
 " indent
