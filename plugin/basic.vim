@@ -62,11 +62,6 @@ inoremap <C-h> <left>
 inoremap <C-j> <down>
 inoremap <C-k> <up>
 
-" completion with Tab
-inoremap <expr><CR> pumvisible() ? '<C-y>' : '<CR>'
-inoremap <expr><Tab> pumvisible() ? '<C-n>' : '<C-t>'
-inoremap <expr><S-Tab> pumvisible() ? '<C-p>' : '<S-Tab>'
-
 " ##################       COMPLETION       ###################
 " indent
 set autoindent " uses the indent from the previous line
