@@ -55,7 +55,7 @@ set matchtime=3 " jump term sec
 " save
 nnoremap <C-s> :w<CR>
 " quit
-nnoremap <C-q> :qa
+nnoremap <C-q> :qa!
 " move
 inoremap <C-l> <right>
 inoremap <C-h> <left>
