@@ -56,13 +56,13 @@ set matchtime=3 " jump term sec
 nnoremap <C-s> :w<CR>
 " quit
 nnoremap <C-q> :qa!
+" all select
+nnoremap aa ggVG
 " move
 inoremap <C-l> <right>
 inoremap <C-h> <left>
 inoremap <C-j> <down>
 inoremap <C-k> <up>
-" all select
-nnoremap <C-a> ggVG
 
 " ##################       COMPLETION       ###################
 " indent
