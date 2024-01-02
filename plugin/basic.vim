@@ -61,6 +61,8 @@ inoremap <C-l> <right>
 inoremap <C-h> <left>
 inoremap <C-j> <down>
 inoremap <C-k> <up>
+" all select
+nnoremap <C-a> ggVG
 
 " ##################       COMPLETION       ###################
 " indent
