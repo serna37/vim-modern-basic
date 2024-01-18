@@ -70,7 +70,7 @@ set autoindent " uses the indent from the previous line
 set smartindent " more smart indent than autoindent
 set smarttab " use shiftwidth
 set shiftwidth=2 " auto indent width
-set tabstop=4 " view width of Tab
+set tabstop=2 " view width of Tab
 set expandtab " Tab to Space
 " word
 set wildmenu " command mode completion enable
