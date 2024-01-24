@@ -61,8 +61,6 @@ nnoremap aa ggVG
 " move
 inoremap <C-l> <right>
 inoremap <C-h> <left>
-inoremap <C-j> <down>
-inoremap <C-k> <up>
 
 " ##################       COMPLETION       ###################
 " indent
