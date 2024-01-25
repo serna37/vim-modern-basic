@@ -87,6 +87,7 @@ set shortmess-=S " show hit word's number at right bottom
 
 " ##################         OTHERS         ###################
 " basic
+set belloff=all
 set ttyfast " fast terminal connection
 set regexpengine=0 " chose regexp engin
 
