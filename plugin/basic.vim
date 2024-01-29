@@ -90,4 +90,7 @@ set shortmess-=S " show hit word's number at right bottom
 set belloff=all
 set ttyfast " fast terminal connection
 set regexpengine=0 " chose regexp engin
+" fold
+set foldmethod=marker
+set foldlevel=1
 
