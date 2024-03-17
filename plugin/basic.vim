@@ -56,8 +56,8 @@ set matchtime=3 " jump term sec
 nnoremap <C-s> :w<CR>
 " quit
 nnoremap <C-q> :qa!
-" all yank
-nnoremap aay :%y<CR>
+" save & all yank
+nnoremap aay :w<CR>:%y<CR>
 " all del
 nnoremap aad :%d<CR>
 " move
