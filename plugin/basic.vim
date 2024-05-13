@@ -60,6 +60,8 @@ nnoremap <C-q> :qa!
 nnoremap aay :w<CR>:%y<CR>
 " all del
 nnoremap aad :%d<CR>
+" visual select a row
+nnoremap vv ^v$h
 " move
 inoremap <C-l> <right>
 inoremap <C-h> <left>
