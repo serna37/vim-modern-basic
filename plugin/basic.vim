@@ -8,7 +8,8 @@ set nobackup " no create backup file
 set noundofile " no create undo file
 set hidden " enable go other buffer without save
 set autoread " re read file when changed outside vim
-set clipboard+=unnamed " copy yanked fot clipboard
+set clipboard& " reset
+set clipboard^=unnamedplus " copy yanked fot clipboard
 " reopen, go row
 aug reopenGoRow
     au!
