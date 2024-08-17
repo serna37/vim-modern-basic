@@ -35,6 +35,9 @@ set cursorline cursorcolumn " show cursor line/column
 set ruler " show row/col position number at right bottom
 " show status, tabline
 set laststatus=2 showtabline=2
+" no title
+set notitle
+let &titleold=getcwd()
 
 " ##################         WINDOW        ###################
 set splitright
