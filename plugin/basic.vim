@@ -60,9 +60,9 @@ nnoremap <C-s> :w<CR>
 " quit
 nnoremap <C-q> :qa!
 " save & all yank
-nnoremap aay :w<CR>:%y<CR>
+nnoremap aay :<C-u>%y<CR>
 " all del
-nnoremap aad :%d<CR>
+nnoremap aad :<C-u>%d<CR>
 " visual select a row
 nnoremap vv ^v$h
 " move
