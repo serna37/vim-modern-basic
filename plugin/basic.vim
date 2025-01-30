@@ -91,6 +91,8 @@ set hlsearch " highlight match words
 set ignorecase " ignore case search
 set smartcase " don't ignore case when enterd UPPER CASE"
 set shortmess-=S " show hit word's number at right bottom
+" grep to quickfix
+au QuickFixCmdPost *grep* cwindow
 
 " ##################         OTHERS         ###################
 " basic
